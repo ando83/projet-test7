@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');//Font-awesome
+
+$fontA: 'Quicksand', sans-serif;
+$fontA1: 'Roboto', sans-serif;
+
+html{
+  font-size: 1.2rem;
+}
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;  
+}
+
+body{
+  font-family: $fontA;
+  //font-weight: 300;
+}
+

@@ -1,0 +1,76 @@
+h1{
+    @include title-form;
+}
+
+.login-container{
+    h1{
+     color: $color3;
+    }  
+}
+
+.login-container{
+    @include container-form;
+    margin: auto;
+}
+
+label{
+    @include label;
+}
+   
+input{
+    @include input;
+}
+
+.element-form1 button{
+    @include button-log;
+    cursor: pointer;
+}
+ 
+.element-form1{
+   @include space-flex; 
+}
+
+.button-register{
+   @include space-flex;
+   cursor: pointer;
+    p{
+      color:#696969;
+    }
+    span{
+      margin-bottom: 20px; 
+      /*a{
+      color: $color7;
+      }*/
+    } 
+}
+
+@media screen and (max-width: 1000px){  
+   .login-container{   
+    width: 70%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .login-container{   
+    width: 95%;
+    margin-bottom: 200px;
+   }
+
+  input{
+    width: 100%;
+  }  
+
+  .element-form1{
+    @include space-flex;
+  }
+  
+ } 
+
+@media screen and (max-width: 360px) {
+  input {
+    width: 100%;
+  }  
+
+ } 
+
+  
