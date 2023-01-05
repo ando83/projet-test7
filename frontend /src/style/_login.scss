@@ -15,10 +15,12 @@ h1{
 
 label{
     @include label;
+
 }
    
 input{
     @include input;
+    background-color: $color10;
 }
 
 .element-form1 button{
